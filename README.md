@@ -14,39 +14,40 @@ Demo by Coach [Bryan Bibat](http://twitter.com/bry_bibat)
 ## Created a sample Rails app called "testapp"...
   * Create new rails app
 
-    $ rails new testapp</code>
+    <code>$ rails new testapp</code>
 
   * Change directory (cd)
 
-    $ cd testapp
+    <code>$ cd testapp</code>
 
   * Create basic functionality
 
-    /testapp $ rails generate scaffold post title:string content:text
+    <code>/testapp $ rails generate scaffold post title:string content:text</code>
 
   * Prepare database
 
-    /testapp $ rake db:create
+    <code>/testapp $ rake db:create</code>
 
   * Create database
 
-    /testapp $ rake db:migrate
+    <code>/testapp $ rake db:migrate</code>
 
   * Check if Rails server is running
 
-    /testapp $ rails server
+    <code>/testapp $ rails server</code>
 
     (To stop the server: Ctrl C)
 
 ## Learned about Git (version control system)...
   * Initialize git repository
 
-    git init
+    <code>git init</code>
 
   * Add all files to the repo
-    git add .
+
+    <code>git add .</code>
 
 
   * Record the changes to the repo
     
-    git commit -m "Initial commit"
+    <code>git commit -m "Initial commit"</code>
